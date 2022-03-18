@@ -185,6 +185,11 @@ curl https://get.acme.sh | sh
 ## 1.trojan-go面板
 
 ```
+wget https://raw.githubusercontent.com/north151/software-and-scripts/main/%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA/trojan-go-with-web-panel.sh?token=GHSAT0AAAAAABQG24UDAHYXGV4HV5O7FG3OYRUNENA
+
+mv trojan-go-with-web-panel.sh\?token\=GHSAT0AAAAAABQG24UDAHYXGV4HV5O7FG3OYRUNENA  trojan-go-with-web-panel.sh
+
+bash trojan-go-with-web-panel.sh
 
 ```
 
@@ -192,7 +197,9 @@ curl https://get.acme.sh | sh
 
 ```
 wget https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh
+
 mv install.sh x-ui_install.sh
+
 bash x-ui_install.sh
 
 ```
@@ -212,19 +219,19 @@ bash x-ui_install.sh
 
 ## 1.低速不解锁
 
-| 购买地址  | CPU内存   | 硬盘 | 月流量 | 带宽  | 月费 | 年费   | 线路 |
-| --------- | --------- | ---- | ------ | ----- | ---- | ------ | ---- |
-| CloudCone | 1核  1G   | 40G  | 2000G  | 1Gbps |      | $12.73 |      |
-| CloudCone | 2核  1.5G | 60G  | 4000G  | 1Gbps |      | $17.89 |      |
-| RackNerd  | 1核  512M | 10G  | 1000G  | 1Gbps |      | $9.89  |      |
-| RackNerd  | 1核  768M | 12G  | 1000G  | 1Gbps |      | $10.88 |      |
-| RackNerd  | 1核  1.2G | 15G  | 1000G  | 1Gbps |      | $12.79 |      |
-| RackNerd  | 1核  1G   | 20G  | 2000G  | 1Gbps |      | $13.98 |      |
-| RackNerd  | 1核  1G   | 25G  | 4000G  | 1Gbps |      | $14.88 |      |
-| BuyVM     | 1核  512M | 10G  | 无限   |       | $2   | $24    |      |
-| BuyVM     | 1核  1G   | 20G  | 无限   |       | $3.5 | $42    |      |
-|           |           |      |        |       |      |        |      |
-|           |           |      |        |       |      |        |      |
+| 购买地址  | CPU内存   | 硬盘 | 月流量 | 带宽  | 月费 | 年费   |
+| --------- | --------- | ---- | ------ | ----- | ---- | ------ |
+| CloudCone | 1核  1G   | 40G  | 2000G  | 1Gbps |      | $12.73 |
+| CloudCone | 2核  1.5G | 60G  | 4000G  | 1Gbps |      | $17.89 |
+| RackNerd  | 1核  512M | 10G  | 1000G  | 1Gbps |      | $9.89  |
+| RackNerd  | 1核  768M | 12G  | 1000G  | 1Gbps |      | $10.88 |
+| RackNerd  | 1核  1.2G | 15G  | 1000G  | 1Gbps |      | $12.79 |
+| RackNerd  | 1核  1G   | 20G  | 2000G  | 1Gbps |      | $13.98 |
+| RackNerd  | 1核  1G   | 25G  | 4000G  | 1Gbps |      | $14.88 |
+| BuyVM     | 1核  512M | 10G  | 无限   |       | $2   | $24    |
+| BuyVM     | 1核  1G   | 20G  | 无限   |       | $3.5 | $42    |
+|           |           |      |        |       |      |        |
+|           |           |      |        |       |      |        |
 
 
 
@@ -234,11 +241,11 @@ bash x-ui_install.sh
 
 # 7.备用机场
 
-| 机场     | 地址                          |
-| -------- | ----------------------------- |
-| 云速机场 | [云速机场](https://yunsu.org) |
-|          |                               |
-|          |                               |
+| 机场     | 地址                                     |
+| -------- | ---------------------------------------- |
+| 云速机场 | [云速机场](https://yunsu.org)            |
+| 白云机场 | [白云机场](https://tz.baiyuntech.store/) |
+|          |                                          |
 
 
 
