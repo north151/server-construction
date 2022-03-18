@@ -25,11 +25,11 @@
 
 ## 3.ios
 
-| 软件         | 支持协议 | 下载账号购买地址 |
-| ------------ | -------- | ---------------- |
-| Shadowrocket | ALL      | [地址]()         |
-| Quantumult X |          | [地址]()         |
-|              |          | [地址]()         |
+| 软件         | 支持协议 | 下载账号购买地址            |
+| ------------ | -------- | --------------------------- |
+| Shadowrocket | ALL      | [地址](https://dailv118.cn) |
+| Quantumult X | ALL      | [地址](https://dailv118.cn) |
+| Loon         | ALL      | [地址](https://dailv118.cn) |
 
 
 
@@ -40,7 +40,8 @@
 ## 1.socks5
 
 ```
-
+过墙相当于裸奔
+可用于连接中国大陆中转机
 
 ```
 
@@ -70,7 +71,7 @@ vmess + tls + wst + Nginx/Caddy + CDN(cloudfare)
 ## 4.trojan
 
 ```shell
-trojan : 模拟 https 协议,使用443端口  
+trojan : 模拟 https 协议,使用443端口(可改端口)
 trojan-go : trojan + ws + (多路复用)
 
 
@@ -107,15 +108,43 @@ CDN :
 
 
 
-# 3.中转对接
+# 3.中转隧道
+
+```shell
+IPLC/IEPL : 内网专线
+VPN : 将两台vps组成内网,注重加密,特征明显,易被识别
+      常见工具:Zerotier,WireGuard(基于UDP协议,中国大陆网络环境对UDP不友好)
+中专 : luo
+隧道 : TLS加密隧道
+       iptables流量转发:
+           1.用户端 -(密文A)-> 中转服务器(1.1.1.1:1111) -(密文A)-> 
+           2.长城防火墙机房 -(密文A)-> 
+           3.落地服务器(2.2.2.2:2222)(1次解密)
+       隧道中转:
+           1.用户端 -(密文A)-> 中转服务器(1.1.1.1:1111) -(密文B)-> 
+           2.长城防火墙机房 -(密文B)-> 
+           3.落地服务器(2.2.2.2:2222)(2次解密)
 
 
+```
 
 
 
 
 
 # 4.传输线路
+
+路由追踪工具 **BestTrace**下载
+
+| 系统    | 下载地址                                                     |
+| ------- | ------------------------------------------------------------ |
+| Windows | [地址](https://objects.githubusercontent.com/github-production-release-asset-2e65be/466812642/f086f6d6-180a-4a8a-bab6-f98c88ab35ca?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220318%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220318T110258Z&X-Amz-Expires=300&X-Amz-Signature=f9ac96a8a4063ead70e81e741339fcd9cf11c570bdfde5f12c0f242a3e03dd4b&X-Amz-SignedHeaders=host&actor_id=70125880&key_id=0&repo_id=466812642&response-content-disposition=attachment%3B%20filename%3DBestTrace-windows.exe&response-content-type=application%2Foctet-stream) |
+| Android | [地址](https://objects.githubusercontent.com/github-production-release-asset-2e65be/466812642/de15e8d5-799d-4983-9b0f-f811e6a7c008?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220318%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220318T110040Z&X-Amz-Expires=300&X-Amz-Signature=d30d9c6ca47031469396c641a63f109658d8ce4e6191fd3afa4dfb2bfce23e00&X-Amz-SignedHeaders=host&actor_id=70125880&key_id=0&repo_id=466812642&response-content-disposition=attachment%3B%20filename%3DBestTrace-android.apk&response-content-type=application%2Fvnd.android.package-archive) |
+| IOS     | [地址](https://objects.githubusercontent.com/github-production-release-asset-2e65be/466812642/ed45a1d4-321b-462d-8a5d-ed48d0613385?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220318%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220318T110156Z&X-Amz-Expires=300&X-Amz-Signature=b43a8f5cb25c83b1d0dde65af03b9981572b86294620183e93caaf2d757565e9&X-Amz-SignedHeaders=host&actor_id=70125880&key_id=0&repo_id=466812642&response-content-disposition=attachment%3B%20filename%3DBestTrace-ios.txt&response-content-type=application%2Foctet-stream) |
+| Mac     | [地址](https://objects.githubusercontent.com/github-production-release-asset-2e65be/466812642/8335cedb-eb4c-488f-bddf-37777a7ba8d7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220318%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220318T110213Z&X-Amz-Expires=300&X-Amz-Signature=abc2576cb2a4a6f1f49710acf499a22358d9e34a64830413e957747955dfa592&X-Amz-SignedHeaders=host&actor_id=70125880&key_id=0&repo_id=466812642&response-content-disposition=attachment%3B%20filename%3DBestTrace-mac.txt&response-content-type=application%2Foctet-stream) |
+| Linux   | [地址](https://objects.githubusercontent.com/github-production-release-asset-2e65be/466812642/30ab604d-bb76-479b-b4ca-8bdb303a9548?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220318%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220318T110240Z&X-Amz-Expires=300&X-Amz-Signature=283bc35c54edf5cc11db32decd6d46bfbb792b736f77356b5a22d5378c8bea34&X-Amz-SignedHeaders=host&actor_id=70125880&key_id=0&repo_id=466812642&response-content-disposition=attachment%3B%20filename%3DBestTrace-linux.zip&response-content-type=application%2Foctet-stream) |
+
+
 
 ```shell
 # 注: 
