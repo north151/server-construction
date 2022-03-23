@@ -1,5 +1,5 @@
 
-<video src="resources/vedios/原理.mp4" 
+<video src="https://github.com/north151/software-and-scripts/tree/main/resources/vedios" 
        poster="" preload="none" 
        controls autoplay 
        width="" height="">
