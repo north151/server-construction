@@ -1,4 +1,9 @@
 
+<video src="1.mp4" 
+       poster="" preload="none" 
+       controls autoplay 
+       width="" height="">
+</video>
 
 # 1.连接软件
 
