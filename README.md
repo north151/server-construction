@@ -1,5 +1,5 @@
 
-<video src="1.mp4" 
+<video src="resources/vedios/原理.mp4" 
        poster="" preload="none" 
        controls autoplay 
        width="" height="">
