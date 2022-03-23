@@ -1,8 +1,6 @@
-<iframe src="https://www.youtube.com/embed/Fhu6XxEno_o" 
-	title="YouTube video player" 
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-	allowfullscreen width="560" height="315">
-</iframe>
+**[原理视频](https://www.youtube.com/embed/Fhu6XxEno_o)**
+
+
 
 # 1.连接软件
 
