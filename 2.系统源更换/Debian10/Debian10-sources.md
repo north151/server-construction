@@ -1,0 +1,119 @@
+```shell
+# Debian 10 buster
+
+位置    : /etc/apt/soures.list
+deb     : 已编译好
+deb-src : 源码未编译
+
+注释掉 deb-src 源码镜像 可以提高 sudo apt update 的速度
+```
+
+
+
+**更新源**
+
+```shell
+sudo apt-get update
+```
+
+**更新软件**
+
+```shell
+sudo apt-get upgrade
+```
+
+
+
+
+
+## 官方源
+
+```shell
+# 官方源
+# deb http://deb.debian.org/debian buster main contrib non-free
+# deb http://deb.debian.org/debian buster-updates main contrib non-free
+# deb http://deb.debian.org/debian-security/ buster/updates main contrib non-free
+
+# deb-src http://deb.debian.org/debian buster main contrib non-free
+# deb-src http://deb.debian.org/debian buster-updates main contrib non-free
+# deb-src http://deb.debian.org/debian-security/ buster/updates main contrib non-free
+```
+
+
+
+## 阿里源
+
+```shell
+# 阿里源
+deb http://mirrors.aliyun.com/debian/ buster main non-free contrib
+deb http://mirrors.aliyun.com/debian/ buster-updates main non-free contrib
+deb http://mirrors.aliyun.com/debian/ buster-backports main non-free contrib
+deb http://mirrors.aliyun.com/debian-security buster/updates main
+
+# deb-src http://mirrors.aliyun.com/debian/ buster main non-free contrib
+# deb-src http://mirrors.aliyun.com/debian/ buster-updates main non-free contrib
+# deb-src http://mirrors.aliyun.com/debian/ buster-backports main non-free contrib
+# deb-src http://mirrors.aliyun.com/debian-security buster/updates main
+```
+
+
+
+## 网易源
+
+```shell
+# 网易源
+# deb http://mirrors.163.com/debian/ buster main non-free contrib
+# deb http://mirrors.163.com/debian/ buster-updates main non-free contrib
+# deb http://mirrors.163.com/debian/ buster-backports main non-free contrib
+# deb http://mirrors.163.com/debian-security/ buster/updates main non-free contrib
+
+# deb-src http://mirrors.163.com/debian/ buster main non-free contrib
+# deb-src http://mirrors.163.com/debian/ buster-updates main non-free contrib
+# deb-src http://mirrors.163.com/debian/ buster-backports main non-free contrib
+# deb-src http://mirrors.163.com/debian-security/ buster/updates main non-free contrib
+```
+
+
+
+## 中科大源
+
+```shell
+# 中科大源
+# deb http://mirrors.ustc.edu.cn/debian buster main contrib non-free
+# deb http://mirrors.ustc.edu.cn/debian buster-updates main contrib non-free
+# deb http://mirrors.ustc.edu.cn/debian buster-backports main contrib non-free
+# deb http://mirrors.ustc.edu.cn/debian-security/ buster/updates main contrib non-free
+
+# deb-src http://mirrors.ustc.edu.cn/debian buster main contrib non-free
+# deb-src http://mirrors.ustc.edu.cn/debian buster-updates main contrib non-free
+# deb-src http://mirrors.ustc.edu.cn/debian buster-backports main contrib non-free
+# deb-src http://mirrors.ustc.edu.cn/debian-security/ buster/updates main contrib non-free
+```
+
+
+
+## 清华源
+
+```shell
+# 清华源
+# deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
+# deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free
+# deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free
+# deb https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free
+
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free
+```
+
+
+
+
+
+
+
+
+
+
+
