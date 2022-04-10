@@ -174,36 +174,52 @@ VPN : 将两台vps组成内网,注重加密,特征明显,易被识别
 
 # 5.安装
 
+## 证书获取
+**安装证书工具**
 ```shell
-# 证书获取
 curl https://get.acme.sh | sh
+```
+**注册账号**
+```
 ~/.acme.sh/acme.sh --register-account -m 邮箱地址(不一定真实)
+```
+**申请证书**
+```
 ~/.acme.sh/acme.sh --issue -d 绑定域名 --standalone
+```
+**证书移到指定位置**
+```
 ~/.acme.sh/acme.sh --installcert -d 绑定域名 --key-file /密钥存放地址/private.key --fullchain-file /证书存放地址/cert.crt
 ```
 
 
 
 ## 1.trojan-go面板
-
+**下载脚本**
 ```
 wget https://raw.githubusercontent.com/north151/software-and-scripts/main/%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA/trojan-go-with-web-panel.sh?token=GHSAT0AAAAAABQG24UDAHYXGV4HV5O7FG3OYRUNENA
-
+```
+**重命名脚本**
+```
 mv trojan-go-with-web-panel.sh\?token\=GHSAT0AAAAAABQG24UDAHYXGV4HV5O7FG3OYRUNENA  trojan-go-with-web-panel.sh
-
+```
+**运行脚本**
+```
 bash trojan-go-with-web-panel.sh
-
 ```
 
 ## 2.x-ui面板
-
+**下载脚本**
 ```
 wget https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh
-
+```
+**重命名脚本**
+```
 mv install.sh x-ui_install.sh
-
+```
+**运行脚本**
+```
 bash x-ui_install.sh
-
 ```
 
 
