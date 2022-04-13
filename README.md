@@ -176,11 +176,10 @@ VPN : 将两台vps组成内网,注重加密,特征明显,易被识别
 
 ## 证书获取
 **安装证书工具**
-**注意有没有安装web服务器**
 ```shell
 curl https://get.acme.sh | sh
 ```
-**注册账号**
+**注册账号**  (注意有没有安装web服务器)
 ```
 ~/.acme.sh/acme.sh --register-account -m 邮箱地址(不一定真实)
 ```
