@@ -4,6 +4,11 @@
 
 # 1.连接软件
 
+
+[下载软件](https://github.com/north151/software-and-scripts/releases/tag/%E8%BF%9E%E6%8E%A5%E5%B7%A5%E5%85%B7)
+
+
+
 ## 1.win
 
 | 软件           | 支持协议                                         | 下载地址 |
@@ -34,7 +39,7 @@
 | Loon         | ALL      | [地址](https://dailv118.cn) |
 
 
-
+<br><br>
 
 
 # 2.传输协议
@@ -108,7 +113,7 @@ CDN :
 
 ```
 
-
+<br><br>
 
 # 3.中转隧道
 
@@ -132,7 +137,7 @@ VPN : 将两台vps组成内网,注重加密,特征明显,易被识别
 
 
 
-
+<br><br>
 
 # 4.传输线路
 
@@ -168,7 +173,7 @@ VPN : 将两台vps组成内网,注重加密,特征明显,易被识别
 
 
 
-
+<br><br>
 
 
 
@@ -222,7 +227,7 @@ mv install.sh x-ui_install.sh
 bash x-ui_install.sh
 ```
 
-
+<br><br>
 
 # 6.VPS
 
@@ -233,7 +238,7 @@ bash x-ui_install.sh
 3.服务条款是否允许搭建代理,是否支持退款
 ```
 
-
+[解锁Netfilx等](https://github.com/north151/software-and-scripts/releases/tag/%E8%A7%A3%E9%94%81)
 
 ## 1.低速不解锁
 
@@ -254,7 +259,7 @@ bash x-ui_install.sh
 
 
 
-
+<br><br>
 
 
 # 7.备用机场
