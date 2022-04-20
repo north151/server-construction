@@ -143,8 +143,8 @@ VPN : 将两台vps组成内网,注重加密,特征明显,易被识别
 
 路由追踪工具 **BestTrace**下载
 
-| 系统           | 下载地址                                                                                                                                                                                                                                                    |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- -------- |
+| 系统           | 下载地址 |
+| ------------ | ------------|
 | Windows | [地址](https://github.com/north151/software-and-scripts/releases/tag/%E8%B7%AF%E7%94%B1%E8%B7%9F%E8%B8%AA) |
 | Android   | [地址](https://github.com/north151/software-and-scripts/releases/tag/%E8%B7%AF%E7%94%B1%E8%B7%9F%E8%B8%AA) |
 | IOS            | [地址](https://github.com/north151/software-and-scripts/releases/tag/%E8%B7%AF%E7%94%B1%E8%B7%9F%E8%B8%AA) |
